@@ -1,1 +1,33 @@
-
+ *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      #shadow2 {
+        color: white;
+        -webkit-text-stroke: 1px #f8f8f8;
+        text-shadow: 0px 2px 4px blue;
+        text-align: center;
+      }
+      p#showRgbValue{
+        /* border: 2px solid red; */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+        height: 25px;
+        background-color: #fff;
+        width: 200px;
+        text-align: center;
+        padding: 10px;
+      }
+      #btn{
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 18px;
+        font-weight: 600;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
